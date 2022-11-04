@@ -33,8 +33,8 @@
     $date = isset($_GET['date']) ? $_GET['date'] : '';
     $time = isset($_GET['time']) ? $_GET['time'] : '';
     $days = isset($_GET['days']) ? $_GET['days'] : '';
-    $car = isset($_GET['car']) ? $_GET['cars'] : '';
-    $phonenumber = isset($_GET['phonenumber']) ? $_POST['phonenumber'] : '';
+    $car = isset($_GET['car']) ? $_GET['car'] : '';
+    $phonenumber = isset($_GET['phonenumber']) ? $_GET['phonenumber'] : '';
     $hp = isset($_GET['hp']) ? $_GET['hp'] : '';
     $driver = isset($_GET['driver']) ? $_GET['driver'] : '';
     $bensin = isset($_GET['bensin']) ? $_GET['bensin'] : '';
@@ -71,7 +71,7 @@
 echo(rand() . "<br>");?></td>
       <td><?php echo $nama ?></td>
       <td><?php echo $date ?></td>
-      <td><?php echo $times ?></td>
+      <td><?php echo $time ?></td>
       <td><?php echo $car ?></td>
       <td><?php echo $phonenumber ?></td>
       <td><?php echo $service ?></td>
