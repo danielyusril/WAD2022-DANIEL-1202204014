@@ -31,10 +31,10 @@ $update = mysqli_query($db, $sql);
 if($update) {
     session_start();
     $_SESSION['msg'] = 'success';
-    redirect('ListCarmobil.php');
+    header('Location: ../pages/ListCarmobil.php');
 } else {
     session_start();
     $_SESSION['msg'] = 'failed';
-    return redirect('ListCarmobil.php');
+    return header('Location: ../pages/ListCarmobil.php');
 }
 ?>

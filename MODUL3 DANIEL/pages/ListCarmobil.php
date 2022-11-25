@@ -29,10 +29,10 @@ include('../config/connector.php');
                             <a class="nav-link" href="Homemobil.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href=".../MODUL3 DANIEL/pages/ListCarmobil.php">Mycar</a>
+                            <a class="nav-link active" href="pages/ListCarmobil.php">Mycar</a>
                         </li>
                     </ul>
-                    <a href=".../MODUL3 DANIEL/pages/Addmobil.php" class="btn btn-light bg-white">Add Car</a>
+                    <a href="Addmobil.php" class="btn btn-light bg-white">Add Car</a>
                 </div>
             </div>
         </nav>

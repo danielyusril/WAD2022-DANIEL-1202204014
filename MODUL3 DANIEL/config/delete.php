@@ -10,11 +10,11 @@ if(isset($_GET['id'])) {
     if($delete) {
         session_start();
         $_SESSION['msg'] = 'dsuccess';
-        redirect('ListCarmobil.php');
+        header('Location: ../pages/ListCarmobil.php');
     } else {
         session_start();
         $_SESSION['msg'] = 'dfailed';
-        return redirect('ListCarmobil.php');
+        return header('Location: ../pages/ListCarmobil.php');
     }
 }
 ?>

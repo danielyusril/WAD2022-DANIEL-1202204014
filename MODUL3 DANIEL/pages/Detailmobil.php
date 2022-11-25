@@ -64,7 +64,7 @@ if(isset($_GET['id'])) {
                             <?php if($item['status_pembayaran']=='Belum Lunas'){echo'checked';}?> disabled>
                             <label for="belum" class="font-weight-bold">Belum Lunas</label>
                         </div>
-                        <a href="/pages/Editmobil.php?id=<?=$item['id_mobil']?>" class="btn btn-primary px-5">Edit</a>
+                        <a href="Editmobil.php?id=<?=$item['id_mobil']?>" class="btn btn-primary px-5">Edit</a>
                     </form>
                 </div>
             </div>

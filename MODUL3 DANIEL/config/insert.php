@@ -22,11 +22,11 @@ if(include("connector.php")) {
         if($insert) {
             session_start();
             $_SESSION['msg'] = 'success';
-            redirect('ListCarmobil.php');
+            header('Location: ../pages/ListCarmobil.php');
         } else {
             session_start();
             $_SESSION['msg'] = 'failed';
-            return redirect('ListCarmobil.php');
+            return header('Location: ../pages/ListCarmobil.php');
         }
     } else {
         echo "Gagal upload gambar";
@@ -34,7 +34,7 @@ if(include("connector.php")) {
 } else {
     session_start();
     $_SESSION['msg'] = 'cfailed';
-    return redirect('ListCarmobil.php');
+    return header('Location: ../pages/ListCarmobil.php');
 }
 
 ?>
