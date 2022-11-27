@@ -16,16 +16,12 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.php">Home</a>
+                            <a class="nav-link active" href="../pages/Homemobil.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="pages/ListCarmobil.php">Mycar</a>
+                            <a class="nav-link" href="../pages/ListCarmobil.php">Mycar</a>
                         </li>
                     </ul>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <a class="btn btn-primary me-md-2" type="button" href="../pages/login.php">Login</a>
-                    </div>
-
                 </div>
             </div>
         </nav>
@@ -34,10 +30,10 @@
                 <div class="col">
                     <h1>Selamat Datang  Di Showroom Daniel</h1>
                     <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magni aliquid totam tempore, eum fuga saepe repellendus? Fugiat, consequuntur quaerat.</p>
-                    <a href="pages/ListCarmobil.php" class="btn btn-primary p-2 px-4 mb-5">MyCar</a>
+                    <a href="ListCarmobil.php" class="btn btn-primary p-2 px-4 mb-5">MyCar</a>
                     <div>
                         <img src="assets/images/logo-ead.png" alt="Logo" height="32" width="auto">
-                        <span class="px-3">Daniel Yusril Jasli-1202204014</span>
+                        <span class="px-3">Daniel Yusril Jasli - 1202204014</span>
                     </div>
                 </div>
                 <div class="col">
