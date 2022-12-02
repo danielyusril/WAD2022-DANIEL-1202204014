@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-sm">
                     <h1 class="fw-bold">Login</h1>
-                    <form action="../pages/Homemobil.php" method="POST" enctype="multipart/form-data">
+                    <form action="../config/configlogin.php" method="POST" enctype="multipart/form-data">
 
                     <div class="mb-3">
                         <label for="email" class="form-label fw-bold">Email</label>
@@ -39,8 +39,8 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="password" class="form-label fw-bold">password</label>
-                        <input type="text" class="form-control" id="password" name="password"required>
+                        <label for="passwordi" class="form-label fw-bold">password</label>
+                        <input type="text" class="form-control" id="passwordi" name="passwordi"required>
                     </div>
 
                     <div class="form-check">
@@ -49,11 +49,11 @@
                     </div>
 
                     <div class="mt-3 mb-1">
-                        <button type="submit" class="btn btn-primary" name="masuk">Masuk</button>
+                        <button type="submit" class="btn btn-primary" name="masuk" href="../pages/Homemobil.php">Masuk</button>
                     </div>
 
                     <p>Anda belum punya akun? 
-                        <a href="menu/register.php">Daftar</a>
+                        <a href="../menu/register.php">Daftar</a>
                     </p>
                 </div>
             

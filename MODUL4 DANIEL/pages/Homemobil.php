@@ -32,7 +32,7 @@
                     <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magni aliquid totam tempore, eum fuga saepe repellendus? Fugiat, consequuntur quaerat.</p>
                     <a href="ListCarmobil.php" class="btn btn-primary p-2 px-4 mb-5">MyCar</a>
                     <div>
-                        <img src="assets/images/logo-ead.png" alt="Logo" height="32" width="auto">
+                        <img src="../assets/images/logo-ead.png" alt="Logo" height="32" width="auto">
                         <span class="px-3">Daniel Yusril Jasli - 1202204014</span>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ if(isset($_GET['id'])) {
     $id = $_GET['id'];
     $sql = "SELECT * FROM user_daniel WHERE id_user=$id";
     $query = mysqli_query($db, $sql);
-    $item = mysqli_fetch_assoc($query);
+    $item = mysqli_fetch_array($query);
 }
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ if(isset($_GET['id'])) {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.php">Home</a>
+                            <a class="nav-link" href="../pages/Homemobil.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="/pages/ListCarmobil.php">Mycar</a>

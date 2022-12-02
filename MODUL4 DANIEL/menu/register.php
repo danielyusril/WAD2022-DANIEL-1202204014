@@ -60,7 +60,7 @@
                         </div>
 
                         <div class="mt-3 mb-1">
-                            <button type="submit" class="btn btn-primary" name="daftar">Daftar</button>
+                            <button type="submit" class="btn btn-primary" name="daftar" href= "login.php">Daftar</button>
                         </div>
 
                         <p>Anda sudah punya akun? 
